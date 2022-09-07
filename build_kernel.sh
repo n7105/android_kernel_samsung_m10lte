@@ -7,4 +7,4 @@ export ARCH=arm64
 export CROSS_COMPILE=/opt/gcc/bin/aarch64-linux-android-
 
 make ARCH=arm64 m10lte_defconfig
-make ARCH=arm64 -j64
+#make ARCH=arm64 -j64
